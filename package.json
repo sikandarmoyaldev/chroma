@@ -1,0 +1,39 @@
+{
+    "name": "chroma",
+    "version": "1.0.0",
+    "description": "This repository contains an npm package for colorized console printing, providing easy-to-use methods for printing messages in various colors to enhance readability.",
+    "main": "dist/index.js",
+    "types": "dist/types/index.d.ts",
+    "author": "Sikandar Moyal <sikandar.moyal.dev@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "build": "tsc",
+        "prepare": "npm run build"
+    },
+    "devDependencies": {
+        "@types/node": "^20.12.7",
+        "typescript": "^5.4.5"
+    },
+    "dependencies": {
+        "chalk": "^4.1.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sikandarmoyaldev/chroma.git"
+    },
+    "keywords": [
+        "console",
+        "color",
+        "logging",
+        "terminal",
+        "chalk",
+        "colorized-output"
+    ],
+    "bugs": {
+        "url": "https://github.com/sikandarmoyaldev/chroma/issues"
+    },
+    "homepage": "https://github.com/sikandarmoyaldev/chroma#readme",
+    "files": [
+        "dist/**/*"
+    ]
+}
